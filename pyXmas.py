@@ -7,7 +7,7 @@ def xmas(family):
   return matches
 
 if __name__ =='__main__':
-  family = ['Mike', 'Muriel', 'Steph', 'James', 'Kevin', 'Laurier', 'Cameron']
+  family = ['Mike', 'Muriel', 'Steph', 'James', 'Kevin', 'Cameron']
   random.shuffle(family)
   matches = xmas(family)
   for (x,y) in matches:
